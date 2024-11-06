@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        font-family: "Livvic", sans-serif;
+}
+:root{
+        --MidnightGreen: #014e56;
+        --LightCoral:#f67e7e;
+        --white:#fff;
+        --RaptureBlue:#79C8C7;
+        --PoliceBlue:#2C6269;
+        --DeepJungleGreen:#004047;
+        --SacramentoStateGreen: #012F34;
+        --DarkGreen:#002529;
+}
+.nav{
+        width: 100%;
+        height: 789px;
+        background-color: var(--MidnightGreen);
+}
+.container{
+        max-width: 1110px;
+        margin: 0 auto;
+}
+.nav__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 73px;
+}
+.nav__left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.logo img{
+        width: 160px;
+        height: 40px;
+        padding: 0.05px;
+}
+.nav__list{
+        width: 140px;
+        height: 28px;
+        margin-left: 80px;
+        display: flex;
+        gap: 40px;
+}
+.nav__list a{
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--white);
+}
+.nav__list a:hover{
+        color: var(--LightCoral);
+        cursor: pointer;
+}
+.nav__btn{
+        width: 153px;
+        height: 48px;
+        border-radius: 24px;
+        border: 2px solid var(--white);
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--white);
+        background-color: transparent;
+}
+.nav__right a{
+        text-decoration: none;
+        padding: 10px 33px;
+}
+.nav__btn:hover{
+        background-color: var(--white);
+        color: var(--MidnightGreen);
+}
+.nav__bottom{
+        display: flex;
+        align-items: center;
+        gap:30px ;
+}
+.nb__logo{
+        width: 350px;
+        height: 100px;
+        font-size: 64px;
+        font-weight: 700;
+        color: var(--white);
+        margin-top: 120px;
+}
+.nb__list h1{
+        width: 540px;
+        height: 48px;
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--LightCoral);
+        margin-top: 16px;
+}
+.cards{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+.card{
+        display: flex;
+        align-items: center;
+        gap: 22px;
+}
+.card img{
+        width: 72px;
+        height: 72px;
+}
+.card p{
+        width: 445px;
+        height: 28px;
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--white);
+}
+.nb__right{
+        width: 542px;
+        height: 420px;
+        margin-top: 120px;
+}
+.nb__right input{
+        border: none;
+        background-color: transparent;
+        display: block;
+}
+form hr{
+        width: 540px;
+        height: 1px;
+        color: var(--white);
+        margin-top: 16px;
+        margin-bottom: 24px;
+}
+.hr2{
+        margin-top: 58px;
+}
+.btn{
+        width: 123px;
+        height: 48px;
+        border-radius: 24px ;
+        border: 2px solid var(--white);
+        background-color: var(--white);
+        color: var(--DeepJungleGreen);
+        font-size: 18px;
+        font-weight: 600;
+}
+.img1{
+        position: relative;
+        top: -400px;
+}
+.img3{
+        position: relative;
+        top: -93px;
+        left: 1695px;
+}
+
+
+.footer{
+        background-color: var(--DarkGreen);
+        width: 100%;
+        height: 196px;
+}
+.start{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+}
+.start .nav__list{
+        margin-left: -3px;
+}
+.footer__content{
+        display: flex;
+        align-items: center;
+        padding:48px 0 ;
+}
+.center ul{
+        width: 445px;
+        height: 100px;
+        margin-left: 125px;
+}
+ul li{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        list-style: none;
+        color: var(--white);
+}
+.end img{
+        width: 104px;
+        height: 24px;
+        margin-left: 276px;
+}
+.end p{
+        width: 255px;
+        height: 25px;
+        opacity: 0.6px;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--white);
+        margin-left: 125px;
+        margin-top: 51px;
+}
